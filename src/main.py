@@ -16,7 +16,7 @@ nltk.download('punkt')
 nltk.download('stopwords')
 
 # Load GoEmotions Dataset (update with your dataset path)
-data=pd.read_csv('data/goemotions_1.csv')
+data=pd.read_csv('goemotions_1.csv')
 
 # Preprocessing the text data
 def preprocess_text(text):
